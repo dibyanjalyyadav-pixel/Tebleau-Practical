@@ -1,0 +1,1090 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20262.26.0603.1643                               -->
+<workbook original-version='18.1' source-build='2026.2.0 (20262.26.0603.1643)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <CascadingFiltersHamburgerUI />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Iris' inline='true' name='federated.1s1q68n05zwfl11fjj5xq1yz74m9' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Iris' name='textscan.1rxc2nr1ka77lk1a0f4sh10r56rf'>
+            <connection class='textscan' directory='C:/Users/mvlui/Downloads' filename='Iris.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.1rxc2nr1ka77lk1a0f4sh10r56rf' name='Iris.csv' table='[Iris#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+            <column datatype='integer' name='Id' ordinal='0' />
+            <column datatype='real' name='SepalLengthCm' ordinal='1' />
+            <column datatype='real' name='SepalWidthCm' ordinal='2' />
+            <column datatype='real' name='PetalLengthCm' ordinal='3' />
+            <column datatype='real' name='PetalWidthCm' ordinal='4' />
+            <column datatype='string' name='Species' ordinal='5' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Iris.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;₹&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_IN&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Id]</local-name>
+            <parent-name>[Iris.csv]</parent-name>
+            <remote-alias>Id</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Iris.csv_79FED3EBEE314083AEBD839A9B2E23A5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SepalLengthCm</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[SepalLengthCm]</local-name>
+            <parent-name>[Iris.csv]</parent-name>
+            <remote-alias>SepalLengthCm</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Iris.csv_79FED3EBEE314083AEBD839A9B2E23A5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SepalWidthCm</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[SepalWidthCm]</local-name>
+            <parent-name>[Iris.csv]</parent-name>
+            <remote-alias>SepalWidthCm</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Iris.csv_79FED3EBEE314083AEBD839A9B2E23A5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PetalLengthCm</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PetalLengthCm]</local-name>
+            <parent-name>[Iris.csv]</parent-name>
+            <remote-alias>PetalLengthCm</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Iris.csv_79FED3EBEE314083AEBD839A9B2E23A5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PetalWidthCm</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PetalWidthCm]</local-name>
+            <parent-name>[Iris.csv]</parent-name>
+            <remote-alias>PetalWidthCm</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Iris.csv_79FED3EBEE314083AEBD839A9B2E23A5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Species</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Species]</local-name>
+            <parent-name>[Iris.csv]</parent-name>
+            <remote-alias>Species</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[Iris.csv_79FED3EBEE314083AEBD839A9B2E23A5]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[Id]' role='dimension' type='ordinal' />
+      <column caption='Petal Length Cm' datatype='real' name='[PetalLengthCm]' role='measure' type='quantitative' />
+      <column caption='Petal Width Cm' datatype='real' name='[PetalWidthCm]' role='measure' type='quantitative' />
+      <column caption='Sepal Length Cm' datatype='real' name='[SepalLengthCm]' role='measure' type='quantitative' />
+      <column caption='Sepal Width Cm' datatype='real' name='[SepalWidthCm]' role='measure' type='quantitative' />
+      <column caption='Iris.csv' datatype='table' name='[__tableau_internal_object_id__].[Iris.csv_79FED3EBEE314083AEBD839A9B2E23A5]' role='measure' type='quantitative' />
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='Iris.csv' id='Iris.csv_79FED3EBEE314083AEBD839A9B2E23A5'>
+            <properties context=''>
+              <relation connection='textscan.1rxc2nr1ka77lk1a0f4sh10r56rf' name='Iris.csv' table='[Iris#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+                  <column datatype='integer' name='Id' ordinal='0' />
+                  <column datatype='real' name='SepalLengthCm' ordinal='1' />
+                  <column datatype='real' name='SepalWidthCm' ordinal='2' />
+                  <column datatype='real' name='PetalLengthCm' ordinal='3' />
+                  <column datatype='real' name='PetalWidthCm' ordinal='4' />
+                  <column datatype='string' name='Species' ordinal='5' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+    <datasource caption='world_cup_results' inline='true' name='federated.0svlr000739qco1e7dwxb1q14an9' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='world_cup_results' name='textscan.0mx8u9t1q66rhn16mvz0g0uf5za2'>
+            <connection class='textscan' directory='C:/Users/mvlui/Downloads' filename='world_cup_results.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation join='full' type='join'>
+          <clause type='join'>
+            <expression op='='>
+              <expression op='[world_cup_results.csv].[Country]' />
+              <expression op='[NetFlix.csv].[country]' />
+            </expression>
+          </clause>
+          <relation connection='textscan.0mx8u9t1q66rhn16mvz0g0uf5za2' name='world_cup_results.csv' table='[world_cup_results#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+              <column datatype='integer' name='Year' ordinal='0' />
+              <column datatype='date' name='Date' ordinal='1' />
+              <column datatype='datetime' name='Time' ordinal='2' />
+              <column datatype='string' name='Round' ordinal='3' />
+              <column datatype='string' name='Stadium' ordinal='4' />
+              <column datatype='string' name='City' ordinal='5' />
+              <column datatype='string' name='Country' ordinal='6' />
+              <column datatype='string' name='HomeTeam' ordinal='7' />
+              <column datatype='integer' name='HomeGoals' ordinal='8' />
+              <column datatype='integer' name='AwayGoals' ordinal='9' />
+              <column datatype='string' name='AwayTeam' ordinal='10' />
+              <column datatype='string' name='Observation' ordinal='11' />
+            </columns>
+          </relation>
+          <relation connection='textscan.0mx8u9t1q66rhn16mvz0g0uf5za2' name='NetFlix.csv' table='[NetFlix#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+              <column datatype='string' name='show_id' ordinal='0' />
+              <column datatype='string' name='type' ordinal='1' />
+              <column datatype='string' name='title' ordinal='2' />
+              <column datatype='string' name='director' ordinal='3' />
+              <column datatype='string' name='cast' ordinal='4' />
+              <column datatype='string' name='country' ordinal='5' />
+              <column datatype='string' name='date_added' ordinal='6' />
+              <column datatype='integer' name='release_year' ordinal='7' />
+              <column datatype='string' name='rating' ordinal='8' />
+              <column datatype='integer' name='duration' ordinal='9' />
+              <column datatype='string' name='genres' ordinal='10' />
+              <column datatype='string' name='description' ordinal='11' />
+            </columns>
+          </relation>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[world_cup_results.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;₹&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_IN&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[NetFlix.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;₹&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_IN&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[world_cup_results.csv]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[world_cup_results.csv_A18F30C2C2BE4151A478B0EB5FA86B63]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[Date]</local-name>
+            <parent-name>[world_cup_results.csv]</parent-name>
+            <remote-alias>Date</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[world_cup_results.csv_A18F30C2C2BE4151A478B0EB5FA86B63]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Time</remote-name>
+            <remote-type>134</remote-type>
+            <local-name>[Time]</local-name>
+            <parent-name>[world_cup_results.csv]</parent-name>
+            <remote-alias>Time</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Hour</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[world_cup_results.csv_A18F30C2C2BE4151A478B0EB5FA86B63]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Round</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Round]</local-name>
+            <parent-name>[world_cup_results.csv]</parent-name>
+            <remote-alias>Round</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[world_cup_results.csv_A18F30C2C2BE4151A478B0EB5FA86B63]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Stadium</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Stadium]</local-name>
+            <parent-name>[world_cup_results.csv]</parent-name>
+            <remote-alias>Stadium</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[world_cup_results.csv_A18F30C2C2BE4151A478B0EB5FA86B63]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>City</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[City]</local-name>
+            <parent-name>[world_cup_results.csv]</parent-name>
+            <remote-alias>City</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[world_cup_results.csv_A18F30C2C2BE4151A478B0EB5FA86B63]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Country]</local-name>
+            <parent-name>[world_cup_results.csv]</parent-name>
+            <remote-alias>Country</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[world_cup_results.csv_A18F30C2C2BE4151A478B0EB5FA86B63]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HomeTeam</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[HomeTeam]</local-name>
+            <parent-name>[world_cup_results.csv]</parent-name>
+            <remote-alias>HomeTeam</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[world_cup_results.csv_A18F30C2C2BE4151A478B0EB5FA86B63]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HomeGoals</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[HomeGoals]</local-name>
+            <parent-name>[world_cup_results.csv]</parent-name>
+            <remote-alias>HomeGoals</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[world_cup_results.csv_A18F30C2C2BE4151A478B0EB5FA86B63]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AwayGoals</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[AwayGoals]</local-name>
+            <parent-name>[world_cup_results.csv]</parent-name>
+            <remote-alias>AwayGoals</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[world_cup_results.csv_A18F30C2C2BE4151A478B0EB5FA86B63]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AwayTeam</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[AwayTeam]</local-name>
+            <parent-name>[world_cup_results.csv]</parent-name>
+            <remote-alias>AwayTeam</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[world_cup_results.csv_A18F30C2C2BE4151A478B0EB5FA86B63]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Observation</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Observation]</local-name>
+            <parent-name>[world_cup_results.csv]</parent-name>
+            <remote-alias>Observation</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[world_cup_results.csv_A18F30C2C2BE4151A478B0EB5FA86B63]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>show_id</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[show_id]</local-name>
+            <parent-name>[NetFlix.csv]</parent-name>
+            <remote-alias>show_id</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[world_cup_results.csv_A18F30C2C2BE4151A478B0EB5FA86B63]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[type]</local-name>
+            <parent-name>[NetFlix.csv]</parent-name>
+            <remote-alias>type</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[world_cup_results.csv_A18F30C2C2BE4151A478B0EB5FA86B63]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>title</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[title]</local-name>
+            <parent-name>[NetFlix.csv]</parent-name>
+            <remote-alias>title</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[world_cup_results.csv_A18F30C2C2BE4151A478B0EB5FA86B63]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>director</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[director]</local-name>
+            <parent-name>[NetFlix.csv]</parent-name>
+            <remote-alias>director</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[world_cup_results.csv_A18F30C2C2BE4151A478B0EB5FA86B63]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cast</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[cast]</local-name>
+            <parent-name>[NetFlix.csv]</parent-name>
+            <remote-alias>cast</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[world_cup_results.csv_A18F30C2C2BE4151A478B0EB5FA86B63]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>country</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[country]</local-name>
+            <parent-name>[NetFlix.csv]</parent-name>
+            <remote-alias>country</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[world_cup_results.csv_A18F30C2C2BE4151A478B0EB5FA86B63]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>date_added</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[date_added]</local-name>
+            <parent-name>[NetFlix.csv]</parent-name>
+            <remote-alias>date_added</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[world_cup_results.csv_A18F30C2C2BE4151A478B0EB5FA86B63]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>release_year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[release_year]</local-name>
+            <parent-name>[NetFlix.csv]</parent-name>
+            <remote-alias>release_year</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[world_cup_results.csv_A18F30C2C2BE4151A478B0EB5FA86B63]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>rating</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[rating]</local-name>
+            <parent-name>[NetFlix.csv]</parent-name>
+            <remote-alias>rating</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[world_cup_results.csv_A18F30C2C2BE4151A478B0EB5FA86B63]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>duration</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[duration]</local-name>
+            <parent-name>[NetFlix.csv]</parent-name>
+            <remote-alias>duration</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[world_cup_results.csv_A18F30C2C2BE4151A478B0EB5FA86B63]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>genres</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[genres]</local-name>
+            <parent-name>[NetFlix.csv]</parent-name>
+            <remote-alias>genres</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[world_cup_results.csv_A18F30C2C2BE4151A478B0EB5FA86B63]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>description</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[description]</local-name>
+            <parent-name>[NetFlix.csv]</parent-name>
+            <remote-alias>description</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[world_cup_results.csv_A18F30C2C2BE4151A478B0EB5FA86B63]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[Away Goals (bin)]' role='dimension' type='quantitative'>
+        <calculation class='bin' decimals='0' formula='[AwayGoals]' peg='0' size='1.226' />
+      </column>
+      <column caption='Away Goals' datatype='integer' name='[AwayGoals]' role='measure' type='quantitative' />
+      <column caption='Away Team' datatype='string' hidden='true' name='[AwayTeam]' role='dimension' type='nominal' />
+      <column datatype='string' name='[City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column caption='Home Goals' datatype='integer' name='[HomeGoals]' role='measure' type='quantitative' />
+      <column caption=' Team' datatype='string' name='[HomeTeam]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Stadium]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+      <column caption='world_cup_results.csv' datatype='table' name='[__tableau_internal_object_id__].[world_cup_results.csv_A18F30C2C2BE4151A478B0EB5FA86B63]' role='measure' type='quantitative' />
+      <column caption='Cast' datatype='string' name='[cast]' role='dimension' type='nominal' />
+      <column caption='Country1' datatype='string' name='[country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column caption='Date Added' datatype='string' name='[date_added]' role='dimension' type='nominal' />
+      <column caption='Description' datatype='string' name='[description]' role='dimension' type='nominal' />
+      <column caption='Director' datatype='string' name='[director]' role='dimension' type='nominal' />
+      <column caption='Duration' datatype='integer' name='[duration]' role='measure' type='quantitative' />
+      <column caption='Genres' datatype='string' name='[genres]' role='dimension' type='nominal' />
+      <column caption='Rating' datatype='string' name='[rating]' role='dimension' type='nominal' />
+      <column caption='Release Year' datatype='integer' name='[release_year]' role='dimension' type='quantitative' />
+      <column caption='Show Id' datatype='string' name='[show_id]' role='dimension' type='nominal' />
+      <column caption='Title' datatype='string' name='[title]' role='dimension' type='nominal' />
+      <column caption='Type' datatype='string' name='[type]' role='dimension' type='nominal' />
+      <drill-paths>
+        <drill-path name='Country, City'>
+          <field>[Country]</field>
+          <field>[City]</field>
+        </drill-path>
+      </drill-paths>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <filter class='categorical' column='[Stadium]' filter-group='2'>
+        <groupfilter function='member' level='[Stadium]' member='&quot;Arena da Baixada&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+      </filter>
+      <object-graph>
+        <objects>
+          <object caption='world_cup_results.csv' id='world_cup_results.csv_A18F30C2C2BE4151A478B0EB5FA86B63'>
+            <properties context=''>
+              <relation join='full' type='join'>
+                <clause type='join'>
+                  <expression op='='>
+                    <expression op='[world_cup_results.csv].[Country]' />
+                    <expression op='[NetFlix.csv].[country]' />
+                  </expression>
+                </clause>
+                <relation connection='textscan.0mx8u9t1q66rhn16mvz0g0uf5za2' name='world_cup_results.csv' table='[world_cup_results#csv]' type='table'>
+                  <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+                    <column datatype='integer' name='Year' ordinal='0' />
+                    <column datatype='date' name='Date' ordinal='1' />
+                    <column datatype='datetime' name='Time' ordinal='2' />
+                    <column datatype='string' name='Round' ordinal='3' />
+                    <column datatype='string' name='Stadium' ordinal='4' />
+                    <column datatype='string' name='City' ordinal='5' />
+                    <column datatype='string' name='Country' ordinal='6' />
+                    <column datatype='string' name='HomeTeam' ordinal='7' />
+                    <column datatype='integer' name='HomeGoals' ordinal='8' />
+                    <column datatype='integer' name='AwayGoals' ordinal='9' />
+                    <column datatype='string' name='AwayTeam' ordinal='10' />
+                    <column datatype='string' name='Observation' ordinal='11' />
+                  </columns>
+                </relation>
+                <relation connection='textscan.0mx8u9t1q66rhn16mvz0g0uf5za2' name='NetFlix.csv' table='[NetFlix#csv]' type='table'>
+                  <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+                    <column datatype='string' name='show_id' ordinal='0' />
+                    <column datatype='string' name='type' ordinal='1' />
+                    <column datatype='string' name='title' ordinal='2' />
+                    <column datatype='string' name='director' ordinal='3' />
+                    <column datatype='string' name='cast' ordinal='4' />
+                    <column datatype='string' name='country' ordinal='5' />
+                    <column datatype='string' name='date_added' ordinal='6' />
+                    <column datatype='integer' name='release_year' ordinal='7' />
+                    <column datatype='string' name='rating' ordinal='8' />
+                    <column datatype='integer' name='duration' ordinal='9' />
+                    <column datatype='string' name='genres' ordinal='10' />
+                    <column datatype='string' name='description' ordinal='11' />
+                  </columns>
+                </relation>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <datasource-relationships>
+    <datasource-dependencies datasource='federated.0svlr000739qco1e7dwxb1q14an9'>
+      <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column-instance column='[Country]' derivation='None' name='[none:Country:nk]' pivot='key' type='nominal' />
+    </datasource-dependencies>
+    <datasource-dependencies datasource='federated.1s1q68n05zwfl11fjj5xq1yz74m9'>
+      <column datatype='integer' name='[Id]' role='dimension' type='ordinal' />
+      <column-instance column='[Id]' derivation='None' name='[none:Id:ok]' pivot='key' type='ordinal' />
+    </datasource-dependencies>
+    <datasource-relationship source='federated.0svlr000739qco1e7dwxb1q14an9' target='federated.1s1q68n05zwfl11fjj5xq1yz74m9'>
+      <column-mapping>
+        <map key='[federated.0svlr000739qco1e7dwxb1q14an9].[none:Country:nk]' value='[federated.1s1q68n05zwfl11fjj5xq1yz74m9].[none:Id:ok]' />
+      </column-mapping>
+    </datasource-relationship>
+  </datasource-relationships>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{EEBEFDD3-1EDD-468A-82EA-F49D65A65237}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='world_cup_results' name='federated.0svlr000739qco1e7dwxb1q14an9' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0svlr000739qco1e7dwxb1q14an9'>
+            <column caption='Away Goals' datatype='integer' name='[AwayGoals]' role='measure' type='quantitative' />
+            <column datatype='string' name='[City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+            <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column datatype='datetime' name='[Time]' role='dimension' type='ordinal' />
+            <column-instance column='[AwayGoals]' derivation='Count' name='[cnt:AwayGoals:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[City]' derivation='None' name='[none:City:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Country]' derivation='None' name='[none:Country:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Time]' derivation='None' name='[none:Time:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0svlr000739qco1e7dwxb1q14an9].[none:Country:nk]'>
+            <groupfilter function='union' user:ui-domain='cascading' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Argentina&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Brazil&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Chile&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;England&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;France&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Germany&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Italy&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Korea/Japan&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Mexico&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;South Africa&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Spain&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Sweden&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Switzerland&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Uruguay&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;USA&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='quantitative' column='[federated.0svlr000739qco1e7dwxb1q14an9].[none:Time:qk]' included-values='in-range'>
+            <min>#11:30:00#</min>
+            <max>#22:00:00#</max>
+          </filter>
+          <slices>
+            <column>[federated.0svlr000739qco1e7dwxb1q14an9].[none:Time:qk]</column>
+            <column>[federated.0svlr000739qco1e7dwxb1q14an9].[none:Country:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Shape' />
+            <encodings>
+              <color column='[federated.0svlr000739qco1e7dwxb1q14an9].[none:City:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0svlr000739qco1e7dwxb1q14an9].[cnt:AwayGoals:qk]</rows>
+        <cols>([federated.0svlr000739qco1e7dwxb1q14an9].[none:Country:nk] / [federated.0svlr000739qco1e7dwxb1q14an9].[none:City:nk])</cols>
+      </table>
+      <simple-id uuid='{B78F4212-1837-41CF-BA54-02FF224BC223}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='51'>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0svlr000739qco1e7dwxb1q14an9].[none:Round:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{49B17CA6-1270-4725-9837-924964DCE1DC}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0svlr000739qco1e7dwxb1q14an9].[none:City:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0svlr000739qco1e7dwxb1q14an9].[hr:Time:ok]</field>
+            <field>[federated.0svlr000739qco1e7dwxb1q14an9].[none:Away Goals (bin):qk]</field>
+            <field>[federated.0svlr000739qco1e7dwxb1q14an9].[none:City:nk]</field>
+            <field>[federated.0svlr000739qco1e7dwxb1q14an9].[none:Country:nk]</field>
+            <field>[federated.0svlr000739qco1e7dwxb1q14an9].[none:Observation:nk]</field>
+            <field>[federated.0svlr000739qco1e7dwxb1q14an9].[none:Round:nk]</field>
+            <field>[federated.0svlr000739qco1e7dwxb1q14an9].[none:Stadium:nk]</field>
+            <field>[federated.0svlr000739qco1e7dwxb1q14an9].[none:Time:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{C346ACAA-9BB0-4F02-AB43-A507BA3F57F0}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAACFUlEQVR4nO3TMQEAIAzAMMC/5yFjRxMFfXpnZg5Eve0A2GQA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQD
+      kGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBp
+      BiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA
+      0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDN
+      AKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxA
+      mgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKR9Y+0F
+      fBUOM1sAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 2' width='192'>
+      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
+      nGt8Afica/5/5e7dAmXPqC0AAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
